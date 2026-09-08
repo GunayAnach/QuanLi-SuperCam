@@ -1,0 +1,36 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local packaging output
+tools/supercam_viewer/build*/
+tools/supercam_viewer/dist*/
+
+# Local IDE and OS files
+.venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Executables
+/QuanLi
+/QuanLi Software Archive/
+/HW Mod/
+
+# Keep only the project-specific handoff documents in the session archive
+docs/session_logs/*
+!docs/session_logs/README.md
+!docs/session_logs/022_20260908_supercam-viewer-packaging-and-ui.md
+
+# Reverse-engineering captures and generated session output
+reverse_engineering/out/
+reverse_engineering/__pycache__/
+reverse_engineering/*.bin
+reverse_engineering/*.etl
+reverse_engineering/*.h264
+reverse_engineering/*.mp4
+reverse_engineering/*.mpg
+reverse_engineering/*.log
+reverse_engineering/*.txt
+reverse_engineering/*_dump/

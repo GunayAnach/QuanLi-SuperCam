@@ -1,0 +1,4 @@
+numpy>=1.24
+opencv-python>=4.8
+av>=11.0
+Pillow>=10.0

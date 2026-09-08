@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Setting>
+  <DeviceInformation>
+    <Name>PCBQDIRCam</Name>
+    <Url>192.168.1.200</Url>
+    <Port>3000</Port>
+    <NetMask></NetMask>
+  </DeviceInformation>
+  <!--数据存储设置-->
+  <!--Size:剩余空间  Path:存储路径  Cover:是否覆盖-->
+  <StorageSetting>
+    <Size>500000</Size>
+    <Path>O:\OneDrive\IT-Solve\Watermarked\MICROSCOPE\IR</Path>
+    <Cover>False</Cover>
+  </StorageSetting>
+</Setting>
