@@ -90,7 +90,7 @@ docs/                        Session and research notes
 The viewer uses TCP 3001 for control and TCP 3000 for the camera streams. IR
 frames are raw 160x120 12-bit samples and the visible stream is H.264 at
 1920x1080. Additional protocol findings are documented in
-`reverse_engineering/README.md` and the scripts and captures in that directory.
+[Reverse Engineering Notes](reverse_engineering/README.md) and the scripts and captures in that directory.
 
 ## Reverse Engineering Summary
 
