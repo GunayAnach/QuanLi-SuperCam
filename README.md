@@ -96,8 +96,18 @@ frames at 160x120. The viewer reproduces the live stream path without bundling t
 vendor DLLs. The full notes preserve packet layouts, source/session IDs, stream
 negotiation, and the remaining device-specific limitations.
 
-## License
+## Licensing and Vendor Materials
 
-No open-source license has been selected yet. Add the intended license before
-publishing the repository publicly. Vendor software, DLLs, captures, and
-reference files may have separate ownership or redistribution restrictions.
+This repository's original SUPERCAM source code and documentation are released
+under the MIT License. During protocol research, we inspected proprietary QuanLi
+installation-package executables and DLLs that are distributed with, or are
+otherwise commonly available for, QuanLi camera installations. We did not copy
+QuanLi source code, use QuanLi DLLs or executables in SUPERCAM, link against them,
+or include them in this repository. The application uses its own implementation of
+the observed protocol.
+
+QuanLi and its product names remain the property of their respective owners. This
+project is independent of QuanLi and provides no license to vendor software or
+hardware. The project authors accept no liability for QuanLi software, hardware,
+vendor protocol behavior, or damage arising from use of those materials with this
+project. See `LICENSE` for the complete notice.

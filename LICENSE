@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Third-Party and Vendor Materials
+
+This license applies only to the original SUPERCAM source code and documentation
+provided in this repository. During protocol research, the project authors inspected
+proprietary QuanLi installation-package executables and DLLs that are distributed
+with, or are otherwise commonly available for, QuanLi camera installations. No
+QuanLi source code, proprietary DLL, executable, vendor asset, or copied vendor code
+is included in or linked by this application.
+
+QuanLi, QuanLi product names, and vendor materials remain the property of their
+respective owners. This project is independent of QuanLi and does not grant any
+license to vendor software or hardware. The project authors accept no liability for
+QuanLi software, QuanLi hardware, vendor protocol behavior, or damage arising from
+their use with this project. Users are responsible for complying with applicable
+vendor terms and laws when obtaining or using vendor materials.
