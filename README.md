@@ -1,9 +1,14 @@
 # SuperCam Thermal Viewer
 
+![SUPERCAM Thermal Camera](docs/images/QuanLi-Thermal-Camera2.png)
+![SUPERCAM Thermal Camera](docs/images/QuanLi-Thermal-Camera5.jpg)
+
 Cross-platform dual-stream viewer for QuanLi/LangChi SuperCam thermal cameras.
-It displays the 160x120 infrared stream alongside the 1920x1080 visible stream,
+It overlays the 160x120 infrared stream over the downsized 1920x1080 visible stream,
 with calibrated fusion, thermal palettes, hotspot search, temperature cutoffs,
 zoom/pan, and persistent camera settings.
+
+## Software Interface
 
 ![SUPERCAM IR-main interface](docs/images/Screenshot%202026-09-08%20151322.png)
 
@@ -11,7 +16,7 @@ zoom/pan, and persistent camera settings.
 
 ## Why This Exists
 
-The supplied PCBTool is useful for validating the camera, but it is a Windows-only
+The supplied [PCBTool QuanLi_v1.zip archive](QuanLi%20Software%20Archive/) is useful for validating the camera, but it is a Windows-only
 vendor application with limited diagnostics and no practical cross-platform workflow.
 SUPERCAM keeps the same live IR/VIS data path while exposing the calibration, fusion,
 hotspot, temperature-range, zoom, and pan controls needed for board troubleshooting.
