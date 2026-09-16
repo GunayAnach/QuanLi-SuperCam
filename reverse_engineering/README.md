@@ -1,4 +1,5 @@
-# QuanLi "SuperCam" Infrared Camera — Reverse Engineering Notes
+
+QuanLi "SuperCam" Infrared Camera — Reverse Engineering Notes
 
 Reverse-engineered from the shipped Windows client binaries in this folder.
 
