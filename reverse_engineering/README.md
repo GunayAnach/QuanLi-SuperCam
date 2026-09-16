@@ -489,4 +489,3 @@ Always read the sid from the login response; do NOT assume monotonicity.
 Remaining known-good-but-unexplained: the 640x480 H.264 "compressed IR view" that chan4 delivers
 when the sid is the VIS engine (or under extra1=0). It appears absent from the vendor's own GUI
 (no docking window), and may be the firmware's DIP/zoom IR preview.
-
